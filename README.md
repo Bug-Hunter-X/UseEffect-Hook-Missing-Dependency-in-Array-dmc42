@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React's `useEffect` hook: missing dependencies in the dependency array.  The initial `useEffect` will re-render on every render, resulting in unintended side effects and performance issues. The solution demonstrates the correct usage of the dependency array, ensuring the effect only runs when the `count` variable changes.
